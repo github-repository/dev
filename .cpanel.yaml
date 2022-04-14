@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cloudcentric/public_html/dev.cloudcentric.tech/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R /home/cloudcentric/repositories/dev/dev.cloudcentric.tech/ $DEPLOYPATH
