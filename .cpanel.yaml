@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cloudcentric/public_html/dev.cloudcentric.tech
+    - /bin/cp -R dev.cloudcentric.tech $DEPLOYPATH
