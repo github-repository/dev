@@ -1,5 +1,0 @@
----
-deployment:
- tasks:
-  - export DEPLOYPATH=/home/cloudcentric/public_html/
-  - /bin/cp test.html $DEPLOYPATH
